@@ -173,7 +173,6 @@ img{
 div.gallerystart{
 	display: grid;
 	width:100%;
-	vertical-align:top;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(1, 1fr);
 	grid-gap: 0.5vw;
@@ -183,6 +182,7 @@ figure.ima{
 }
 img.startimage{
 	transition: 0.2s linear;
+	display:block;
 }
 img.startimage:hover{
 	-webkit-transform: scale(1.05);
@@ -190,7 +190,6 @@ img.startimage:hover{
 }
 div.content{
 	text-align: left;
-	height:1000px;
 	margin-left: 20px;
 	margin-right: 20px;
 	background: rgba(230,230,230,0.45);
