@@ -190,6 +190,7 @@ img.startimage:hover{
 }
 div.content{
 	text-align: left;
+	height:1000px;
 	margin-left: 20px;
 	margin-right: 20px;
 	background: rgba(230,230,230,0.45);
@@ -288,5 +289,8 @@ img.home_btn, a.home_a{
 	width:0px;
 	margin: 0px;
 	border:0;
+}
+div.gallerystart{
+	height:125px;
 }
 }
