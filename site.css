@@ -289,4 +289,7 @@ img.home_btn, a.home_a{
 	margin: 0px;
 	border:0;
 }
+div.gallerystart{
+	height:150px;
+}
 }
