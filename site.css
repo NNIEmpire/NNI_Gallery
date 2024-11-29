@@ -173,6 +173,7 @@ img{
 div.gallerystart{
 	display: grid;
 	width:100%;
+	height:auto;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(1, 1fr);
 	grid-gap: 0.5vw;
@@ -290,6 +291,6 @@ img.home_btn, a.home_a{
 	border:0;
 }
 div.gallerystart{
-	height:150px;
+	height:auto;
 }
 }
